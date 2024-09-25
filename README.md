@@ -47,7 +47,8 @@ A simple FastAPI application that scrapes book data from [Books to Scrape](https
     GET /scrape/: Scrape books from the website and store them in the database.
 
 ## Database Structure
-The database contains a single table named books with the following columns:
+
+**The database contains a single table named books with the following columns**:
     id: Primary key
     title: Book title
     price: Book price
